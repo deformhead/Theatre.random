@@ -1,0 +1,9 @@
+{
+    "include": [
+
+        "sources/"
+    ],
+    "report-dir": "coverage/",
+    "silent": true,
+    "temp-directory": "coverage/.nyc_output/"
+}
