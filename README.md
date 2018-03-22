@@ -1,4 +1,6 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Build Status](https://travis-ci.org/deformhead/Theatre.random.svg?branch=master)](https://travis-ci.org/deformhead/Theatre.random)
+[![Coverage Status](https://coveralls.io/repos/github/deformhead/Theatre.random/badge.svg?branch=master)](https://coveralls.io/github/deformhead/Theatre.random?branch=master)
 
 # Theatre.random
 

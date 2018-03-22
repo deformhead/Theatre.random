@@ -1,0 +1,47 @@
+{
+    "author": "deformhead",
+    "bugs": {
+
+        "url": "https://github.com/deformhead/Theatre.random/issues"
+    },
+    "description": "javascript es6 game framework / random exportable module",
+    "devDependencies": {
+
+        "babel-preset-es2015": "^6.24.1",
+        "babel-register": "^6.26.0",
+        "chai": "^4.1.1",
+        "coveralls": "^2.13.1",
+        "mocha": "^3.5.0",
+        "nyc": "^11.1.0"
+    },
+    "directories": {
+
+        "test": "tests"
+    },
+    "homepage": "https://github.com/deformhead/Theatre.random#readme",
+    "keywords": [
+
+        "javascript",
+        "es6",
+        "game",
+        "framework",
+        "random",
+        "module"
+    ],
+    "license": "MIT",
+    "main": "sources/random.js",
+    "name": "theatre.random",
+    "repository": {
+
+        "type": "git",
+        "url": "git+https://github.com/deformhead/Theatre.random.git"
+    },
+    "scripts": {
+
+        "test": "npm run test:unit && npm run test:report",
+        "test:unit": "nyc mocha --require babel-register tests/",
+        "test:report": "nyc report",
+        "coveralls": "nyc report --reporter=text-lcov | coveralls"
+    },
+    "version": "0.1.0"
+}
