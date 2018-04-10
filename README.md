@@ -26,7 +26,7 @@ Copy the content of [`sources/`](./sources) folder into your project.
 Import the random module in order to use it in your application :
 
 ```javascript
-import random from './my-path/random.js';
+import {random} from './my-path/random.js';
 ```
 
 ## Usage
