@@ -1,4 +1,4 @@
-import random from '../sources/random.js';
+import {random} from '../sources/random.js';
 
 import chai from 'chai';
 

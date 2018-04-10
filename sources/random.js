@@ -1,4 +1,4 @@
-export default function random(items) {
+export function random(items) {
 
     if (typeof items === 'number'
     && items % 1 === 0
