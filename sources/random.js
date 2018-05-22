@@ -1,4 +1,4 @@
-export function random(items) {
+function random(items) {
 
     if (typeof items === 'number'
     && items % 1 === 0
@@ -14,4 +14,9 @@ export function random(items) {
     }
 
     return null;
+}
+
+export {
+
+    random
 };
