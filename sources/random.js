@@ -16,7 +16,5 @@ function random(items) {
     return null;
 }
 
-export {
-
-    random
-};
+// exports current module as a function
+export {random};
