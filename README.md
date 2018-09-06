@@ -1,8 +1,8 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![Build Status](https://travis-ci.org/deformhead/Theatre.random.svg?branch=master)](https://travis-ci.org/deformhead/Theatre.random)
-[![Coverage Status](https://coveralls.io/repos/github/deformhead/Theatre.random/badge.svg?branch=master)](https://coveralls.io/github/deformhead/Theatre.random?branch=master)
+[![Build Status](https://travis-ci.org/theatrejs/random.svg?branch=master)](https://travis-ci.org/theatrejs/random)
+[![Coverage Status](https://coveralls.io/repos/github/theatrejs/random/badge.svg?branch=master)](https://coveralls.io/github/theatrejs/random?branch=master)
 
-# Theatre.random
+# random
 
 In plain JavaScript, it is annoying to get a random item while keeping consistency in your code.
 
