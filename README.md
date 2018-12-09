@@ -39,7 +39,7 @@ To use this random module, you'll simply need to call it as a function.
 // gets a random item of the given array
 random(['rock', 'paper', 'scissors']);
 
-// gets a random positive integer between 1 and 3
+// gets a random positive integer in [0, 3[
 random(3);
 ```
 
@@ -48,7 +48,7 @@ random(3);
 | property  | name   | type    | description                                  |
 | --------- | ------ | ------- | -------------------------------------------- |
 | parameter | `items`| `mixed` | a positive integer or an array of elements   |
-| return    | `item` | `mixed` | an array item, a positive integer, or `null` |
+| return    | `item` | `mixed` | a positive integer, an array item, or `null` |
 
 ## [Change Log](./CHANGELOG.md)
 

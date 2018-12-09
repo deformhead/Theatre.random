@@ -13,10 +13,10 @@ describe('#random()', function () {
             const items = 4;
             const result = random(items);
 
-            expect(random(1)).to.equal(1);
+            expect(random(1)).to.equal(0);
             expect(result % 1 === 0).to.be.true;
-            expect(result).to.be.at.least(1);
-            expect(result).to.be.at.most(items);
+            expect(result).to.be.at.least(0);
+            expect(result).to.be.at.most(items - 1);
         }
     });
 
